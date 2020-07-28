@@ -52,6 +52,7 @@ html, body { overflow-x: hidden; }
   .navbar-expand-sm.navbar-light .navbar-nav .nav-item.active > .nav-link:hover { color: #FFF; }
   .navbar-expand-sm.navbar-light .navbar-brand { margin-top: 2.5rem; }
   .navbar-expand-sm.navbar-light .navbar-collapse .navbar-nav .nav-item .nav-link { padding-top: 5rem; margin-top: -2rem; } }
+.navbar-toggler { border: none; }
 .navbar-toggler .icon-bar { display: block; width: 22px; height: 2px; background-color: #424242; border-radius: 1px; margin-bottom: 4px; transition: all 0.2s; }
 .navbar-toggler .top-bar { transform: rotate(45deg); transform-origin: 10% 10%; }
 .navbar-toggler .middle-bar { opacity: 0; }
