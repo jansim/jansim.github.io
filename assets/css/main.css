@@ -10,8 +10,9 @@ body.sticky-bottom-footer { padding-bottom: 0; }
 
 .container { max-width: 800px; }
 
-.profile img { width: 100%; border-radius: 100%; filter: grayscale(100%); }
-.profile img:hover, .profile img:focus { filter: grayscale(0%); }
+.profile { text-align: center; }
+.profile img.profile-image { width: 100%; border-radius: 100%; filter: grayscale(100%); max-width: 60vw; }
+.profile img.profile-image:hover, .profile img.profile-image:focus { filter: grayscale(0%); }
 
 /****************************************************************************** Publications *****************************************************************************/
 /*****************************************************************************
@@ -45,6 +46,7 @@ html, body { overflow-x: hidden; }
 .navbar .contact-icon a { color: #424242; }
 .navbar .contact-icon a:hover { color: #DC3522; }
 
+@media (max-width: 575px) { .navbar .navbar-nav .nav-item .nav-link { padding-left: 15px; padding-right: 15px; } }
 @media (min-width: 576px) { .navbar-expand-sm.navbar-light { padding: 0; }
   .navbar-expand-sm.navbar-light .navbar-nav .nav-item .nav-link { margin-left: 0.15rem; margin-right: 0.15rem; }
   .navbar-expand-sm.navbar-light .navbar-nav .nav-item .nav-link:hover { background-color: #DC3522; color: #FFF; }
