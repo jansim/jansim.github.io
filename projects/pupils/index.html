@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<title>Jan Simson | pupillometry</title>
+<meta name="description" content="A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+">
+
+<!-- Bootstrap & MDB -->
+<link href="/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Fonts & Icons -->
+<link rel="stylesheet" href="/assets/vendor/fontawesome/css/all.min.css">
+<link rel="stylesheet" href="/assets/vendor/academicons/css/academicons.min.css">
+<link rel="stylesheet" type="text/css" href="/assets/vendor/googlefonts/css/fonts.css">
+
+<!-- Styles -->
+<link rel="shortcut icon" href="/assets/img/icon/favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="/assets/img/icon/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/assets/img/icon/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/assets/img/icon/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/assets/img/icon/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/assets/img/icon/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/assets/img/icon/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/assets/img/icon/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/assets/img/icon/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/assets/img/icon/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="/assets/img/icon/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/img/icon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/assets/img/icon/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/assets/img/icon/favicon-16x16.png">
+<link rel="stylesheet" href="/assets/css/main.css">
+
+<link rel="canonical" href="/projects/pupils/">
+
+<!-- Open Graph -->
+
+
+  </head>
+
+  <body class=" sticky-bottom-footer">
+
+    <!-- Header -->
+
+    <header>
+
+    <!-- Nav Bar -->
+    <nav id="navbar" class="navbar navbar-light bg-white navbar-expand-sm sticky-top">
+    <div class="container">
+      
+      
+      
+      
+      
+      <a class="navbar-brand title font-weight-lighter" href="/">
+       <span class="font-weight-bold">Jan</span>   Simson
+      </a>
+      
+      <!-- Navbar Toogle -->
+      <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar top-bar"></span>
+        <span class="icon-bar middle-bar"></span>
+        <span class="icon-bar bottom-bar"></span>
+      </button>
+      <div class="collapse navbar-collapse text-right" id="navbarNav">
+        <ul class="navbar-nav ml-auto flex-nowrap">
+          <!-- About -->
+          <li class="nav-item ">
+            <a class="nav-link" href="/">
+              about
+              
+            </a>
+          </li>
+          
+          <!-- Other pages -->
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          <li class="nav-item active">
+              <a class="nav-link" href="/projects/">
+                projects
+                
+              </a>
+          </li>
+          
+          
+          
+          <li class="nav-item ">
+              <a class="nav-link" href="/publications/">
+                publications
+                
+              </a>
+          </li>
+          
+          
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+</header>
+
+
+    <!-- Content -->
+
+    <div class="container mt-5">
+      <div class="post projects">
+
+  <header class="post-header">
+    <h1 class="post-title">pupillometry</h1>
+    <p class="post-description">
+      an automated pupillometry workflow using machine learning; the manual version of this has already been used in research
+      
+    </p>
+  </header>
+
+  <article>
+    
+    <p><img src="/assets/img/projects/pupils.jpg" alt="A screenshot of the manual pupil annotation tool" class="floating-img" /></p>
+
+<p>During my time at the Harvard Music Lab, I’ve worked on creating a python toolbox to automatically extract and measure pupil size from videos. This tool is currently still being developed, however in the process I’ve built a manual annotation tool which has already been used in a project at the lab that is available as a <a href="https://osf.io/xcj52">preprint</a> at the time of writing.</p>
+
+<h2 id="technology-used">technology used</h2>
+<p>The toolbox is being developed in <code class="language-plaintext highlighter-rouge">python</code> It uses <code class="language-plaintext highlighter-rouge">opencv</code> for image manipulation, <code class="language-plaintext highlighter-rouge">face_recognition</code> (powered by <code class="language-plaintext highlighter-rouge">dlib</code>) to detect facial features in the extracted images and <code class="language-plaintext highlighter-rouge">keras</code>, <code class="language-plaintext highlighter-rouge">tensorflow</code> and <code class="language-plaintext highlighter-rouge">keras-image-segmentation</code> for training a machine learning model on them and interfacing with it.</p>
+
+  </article>
+
+</div>
+
+    </div>
+
+    <!-- Footer -->
+
+    
+<footer class="sticky-bottom mt-10">
+  <div class="container">
+    Copyright 2020 Jan Simson &mdash;
+    ⚡️ by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with modified <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme on <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
+
+    
+  </div>
+</footer>
+
+
+
+  </body>
+
+  <!-- Load Core and Bootstrap JS -->
+<script src="/assets/vendor/jquery-3.4.1.slim.min.js"></script>
+<script src="/assets/vendor/popper.min.js"></script>
+<script src="/assets/vendor/bootstrap/js/bootstrap.min.js"></script>
+
+<!-- Load Common JS -->
+<script src="/assets/js/common.js"></script>
+
+<!-- Code Syntax Highlighting -->
+<link rel="stylesheet" href="/assets/vendor/jekyll-pygments-themes/github.css" />
+
+
+
+
+</html>

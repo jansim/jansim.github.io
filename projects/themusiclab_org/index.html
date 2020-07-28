@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<title>Jan Simson | themusiclab.org</title>
+<meta name="description" content="A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+">
+
+<!-- Bootstrap & MDB -->
+<link href="/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Fonts & Icons -->
+<link rel="stylesheet" href="/assets/vendor/fontawesome/css/all.min.css">
+<link rel="stylesheet" href="/assets/vendor/academicons/css/academicons.min.css">
+<link rel="stylesheet" type="text/css" href="/assets/vendor/googlefonts/css/fonts.css">
+
+<!-- Styles -->
+<link rel="shortcut icon" href="/assets/img/icon/favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="/assets/img/icon/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/assets/img/icon/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/assets/img/icon/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/assets/img/icon/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/assets/img/icon/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/assets/img/icon/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/assets/img/icon/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/assets/img/icon/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/assets/img/icon/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="/assets/img/icon/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/img/icon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/assets/img/icon/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/assets/img/icon/favicon-16x16.png">
+<link rel="stylesheet" href="/assets/css/main.css">
+
+<link rel="canonical" href="/projects/themusiclab_org/">
+
+<!-- Open Graph -->
+
+
+  </head>
+
+  <body class=" sticky-bottom-footer">
+
+    <!-- Header -->
+
+    <header>
+
+    <!-- Nav Bar -->
+    <nav id="navbar" class="navbar navbar-light bg-white navbar-expand-sm sticky-top">
+    <div class="container">
+      
+      
+      
+      
+      
+      <a class="navbar-brand title font-weight-lighter" href="/">
+       <span class="font-weight-bold">Jan</span>   Simson
+      </a>
+      
+      <!-- Navbar Toogle -->
+      <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar top-bar"></span>
+        <span class="icon-bar middle-bar"></span>
+        <span class="icon-bar bottom-bar"></span>
+      </button>
+      <div class="collapse navbar-collapse text-right" id="navbarNav">
+        <ul class="navbar-nav ml-auto flex-nowrap">
+          <!-- About -->
+          <li class="nav-item ">
+            <a class="nav-link" href="/">
+              about
+              
+            </a>
+          </li>
+          
+          <!-- Other pages -->
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          <li class="nav-item active">
+              <a class="nav-link" href="/projects/">
+                projects
+                
+              </a>
+          </li>
+          
+          
+          
+          <li class="nav-item ">
+              <a class="nav-link" href="/publications/">
+                publications
+                
+              </a>
+          </li>
+          
+          
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+</header>
+
+
+    <!-- Content -->
+
+    <div class="container mt-5">
+      <div class="post projects">
+
+  <header class="post-header">
+    <h1 class="post-title">themusiclab.org</h1>
+    <p class="post-description">
+      a widely popular citizen science website where we ran > 2 million experiments in the first 2 years
+      
+    </p>
+  </header>
+
+  <article>
+    
+    <p><img src="/assets/img/projects/themusiclab_org.jpg" alt="A screenshot of themusiclab.org" class="floating-img" /></p>
+
+<p><a href="https://themusiclab.org">themusiclab.org</a> is a website where participants can take part in online experiments. It hosts an ever growing number of “games” participants can play, where we collect data on how the mind perceives music.</p>
+
+<p>As of today, not even 2 years after we launched the site, we ran more than 2 million experiments, with thousands more coming in each day.</p>
+
+<p>The first paper to use data from the website has been published in the journal <em>Science</em> with new articles and experiments already in the works.</p>
+
+<h2 id="my-involvement">my involvement</h2>
+<p>I got involved with this project very early on and helped to get the first version running even before I interned at the lab. Throughout my time as an intern and later on as a full-time employee I added multiple new features and games to the site, reworked large portions of the code to reduce complexity and adjusted the front- and back-end to allow for automatic autoscaling to handle huge increases in traffic. I also created the data extraction and preprocessing pipeline used to handle the &gt;100 GBs of complex, often nested and irregular JSON data generated by <code class="language-plaintext highlighter-rouge">jsPsych</code> on the site.</p>
+
+<h2 id="technology-used">technology used</h2>
+<p><a href="https://themusiclab.org">themusiclab.org</a> is powered by an early version of <a href="https://doi.org/10.3758/s13428-018-1155-z">pushkin</a> a work-in-progress framework for large-scale online research. The frontend is built using <code class="language-plaintext highlighter-rouge">react</code>, individual experiments / games are created using <code class="language-plaintext highlighter-rouge">jsPsych</code>. One special experiment is powered by <code class="language-plaintext highlighter-rouge">psychTestR</code> and <code class="language-plaintext highlighter-rouge">shiny</code>. The backend is split into multiple <code class="language-plaintext highlighter-rouge">Docker</code> 🐳 containers, the majority of them running <code class="language-plaintext highlighter-rouge">node.js</code>. Containers communicate via <code class="language-plaintext highlighter-rouge">rabbitmq</code> 🐇 and data is mainly stored in a <code class="language-plaintext highlighter-rouge">postgresql</code> 🐘 database. The whole site is running on <code class="language-plaintext highlighter-rouge">AWS</code> using <code class="language-plaintext highlighter-rouge">ECS</code> to run the actual containers, <code class="language-plaintext highlighter-rouge">RDS</code> to contain data, <code class="language-plaintext highlighter-rouge">Route 53</code> and <code class="language-plaintext highlighter-rouge">EC2 Elastic Load Balancers</code> for DNS and routing, <code class="language-plaintext highlighter-rouge">S3</code> to store static content and <code class="language-plaintext highlighter-rouge">CloudFront</code> to serve static content. The site automatically scales up and down to accomodate enourmous variations in traffic.</p>
+
+  </article>
+
+</div>
+
+    </div>
+
+    <!-- Footer -->
+
+    
+<footer class="sticky-bottom mt-10">
+  <div class="container">
+    Copyright 2020 Jan Simson &mdash;
+    ⚡️ by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with modified <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme on <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
+
+    
+  </div>
+</footer>
+
+
+
+  </body>
+
+  <!-- Load Core and Bootstrap JS -->
+<script src="/assets/vendor/jquery-3.4.1.slim.min.js"></script>
+<script src="/assets/vendor/popper.min.js"></script>
+<script src="/assets/vendor/bootstrap/js/bootstrap.min.js"></script>
+
+<!-- Load Common JS -->
+<script src="/assets/js/common.js"></script>
+
+<!-- Code Syntax Highlighting -->
+<link rel="stylesheet" href="/assets/vendor/jekyll-pygments-themes/github.css" />
+
+
+
+
+</html>
