@@ -102,7 +102,9 @@ code { color: #27AE60; }
 .grid-item a { color: #333; text-decoration: none; }
 .grid-item a:hover { color: #333; }
 .grid-item img { width: 100%; }
-.grid-item .img-wrap { position: relative; overflow: hidden; }
+.grid-item .img-wrap { position: relative; overflow: hidden; background-image: linear-gradient(118.2deg, #f39c12 20.7%, #ff0061 96.9%); }
+.grid-item .img-wrap:before { content: ' '; display: block; padding-bottom: 80.00%; }
+.grid-item .img-wrap img { position: absolute; top: 0; left: 0; width: 100%; min-height: 100%; object-fit: cover; color: #fff; }
 .grid-item .img-wrap::after { content: ' '; display: block; position: absolute; height: 2rem; bottom: -1rem; width: 110%; left: -2.5%; transform: rotate(2deg); box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); background-color: #fff; }
 .grid-item .text { padding: 1rem; padding-top: .5rem; }
 
