@@ -77,6 +77,8 @@ footer .container { padding-top: 9px; padding-bottom: 8px; }
 footer a { color: #828282; }
 footer a:hover { color: #828282; text-decoration: none; }
 
+.post-description { margin-bottom: 3em; }
+
 code { color: #27AE60; }
 
 .post article blockquote { padding: 0 1em; color: #828282; border-left: 0.25em solid #e8e8e8; }
@@ -123,6 +125,7 @@ code { color: #27AE60; }
 .blog-tags .tag-stats::after { content: ' 📈'; display: inline; }
 .blog-tags .tag-python::after { content: ' 🐍'; display: inline; }
 .blog-tags .tag-webdev::after { content: ' 🌐'; display: inline; }
+.blog-tags .tag-data-science::after { content: ' 📊'; display: inline; }
 
 .publications { margin-top: 2rem; margin-bottom: 4rem; }
 .publications h2.year { color: #e8e8e8; border-top: 1px solid #e8e8e8; padding-top: 1rem; margin-top: 2rem; margin-bottom: -2rem; text-align: right; }
