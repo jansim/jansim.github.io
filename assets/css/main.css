@@ -77,6 +77,8 @@ footer .container { padding-top: 9px; padding-bottom: 8px; }
 footer a { color: #828282; }
 footer a:hover { color: #828282; text-decoration: none; }
 
+.post-title { font-weight: 900; }
+
 .post-description { margin-bottom: 3em; }
 
 code { color: #27AE60; }
