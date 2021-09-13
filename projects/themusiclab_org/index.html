@@ -140,6 +140,11 @@
 <h2 id="technology-used">technology used</h2>
 <p><a href="https://themusiclab.org">themusiclab.org</a> is powered by an early version of <a href="https://doi.org/10.3758/s13428-018-1155-z">pushkin</a> a work-in-progress framework for large-scale online research. The frontend is built using <code class="language-plaintext highlighter-rouge">react</code>, individual experiments / games are created using <code class="language-plaintext highlighter-rouge">jsPsych</code>. One special experiment is powered by <code class="language-plaintext highlighter-rouge">psychTestR</code> and <code class="language-plaintext highlighter-rouge">shiny</code>. The backend is split into multiple <code class="language-plaintext highlighter-rouge">Docker</code> 🐳 containers, the majority of them running <code class="language-plaintext highlighter-rouge">node.js</code>. Containers communicate via <code class="language-plaintext highlighter-rouge">rabbitmq</code> 🐇 and data is mainly stored in a <code class="language-plaintext highlighter-rouge">postgresql</code> 🐘 database. The whole site is running on <code class="language-plaintext highlighter-rouge">AWS</code> using <code class="language-plaintext highlighter-rouge">ECS</code> to run the actual containers, <code class="language-plaintext highlighter-rouge">RDS</code> to contain data, <code class="language-plaintext highlighter-rouge">Route 53</code> and <code class="language-plaintext highlighter-rouge">EC2 Elastic Load Balancers</code> for DNS and routing, <code class="language-plaintext highlighter-rouge">S3</code> to store static content and <code class="language-plaintext highlighter-rouge">CloudFront</code> to serve static content. The site automatically scales up and down to accomodate enourmous variations in traffic.</p>
 
+<p><img src="/assets/img/projects/themusiclab_org_architecture.png" alt="A diagram showing different parts of themusiclab.org's AWS infrastructure" /></p>
+
+<p>The above diagram illustrates the backend architecture of themusiclab.org, mostly hosted on AWS, with some on-premise data storage and processing.</p>
+
+
   </article>
 
 </div>
