@@ -113,8 +113,8 @@ code { color: #27AE60; }
 .grid-item .text { padding: 1rem; padding-top: .5rem; }
 
 @media (min-width: 768px) { .projects.grid { columns: auto 260px; column-gap: 2.5rem; }
-  .grid-item { box-shadow: 0 4px 25px rgba(0, 0, 0, 0.25); transition: all .4s ease; /* Fix box-shadows on chrome */ transform: translateZ(0); }
-  .grid-item:hover { box-shadow: 0 9px 25px rgba(0, 0, 0, 0.4); transform: translateY(-5px) translateZ(0); } }
+  .grid-item { box-shadow: 0 4px 25px rgba(0, 0, 0, 0.25); transition: all .4s ease; }
+  .grid-item:hover { box-shadow: 0 9px 25px rgba(0, 0, 0, 0.4); } }
 .blog-tags { /* Specificly colored tags */ }
 .blog-tags .tag { text-decoration: none; padding: 2px 6px 4px; white-space: nowrap; }
 .blog-tags .tag::before { content: '#'; display: inline; }
